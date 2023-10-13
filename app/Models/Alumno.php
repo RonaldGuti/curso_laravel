@@ -12,4 +12,5 @@ class Alumno extends Model
     protected $filiable=['nombre', 'apellido', 'edad', 'direccion'];
     protected $guarded = ['id'];
     protected $primaryKey = 'id';
+    
 }
